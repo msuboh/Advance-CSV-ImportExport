@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C41FB0EF192EBC9400284553 /* KababishMenu.csv in Resources */ = {isa = PBXBuildFile; fileRef = C41FB0EE192EBC9400284553 /* KababishMenu.csv */; };
+		C49D8C32192A6AC400207F1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8C31192A6AC400207F1C /* Foundation.framework */; };
+		C49D8C34192A6AC400207F1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8C33192A6AC400207F1C /* CoreGraphics.framework */; };
+		C49D8C36192A6AC400207F1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8C35192A6AC400207F1C /* UIKit.framework */; };
+		C49D8C38192A6AC400207F1C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8C37192A6AC400207F1C /* CoreData.framework */; };
+		C49D8C3E192A6AC400207F1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C49D8C3C192A6AC400207F1C /* InfoPlist.strings */; };
+		C49D8C40192A6AC400207F1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8C3F192A6AC400207F1C /* main.m */; };
+		C49D8C44192A6AC400207F1C /* MHSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8C43192A6AC400207F1C /* MHSAppDelegate.m */; };
+		C49D8C47192A6AC400207F1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49D8C45192A6AC400207F1C /* Main.storyboard */; };
+		C49D8C4A192A6AC400207F1C /* AdvanceCSVImportExport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C49D8C48192A6AC400207F1C /* AdvanceCSVImportExport.xcdatamodeld */; };
+		C49D8C4D192A6AC400207F1C /* MHSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8C4C192A6AC400207F1C /* MHSMasterViewController.m */; };
+		C49D8C50192A6AC400207F1C /* MHSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8C4F192A6AC400207F1C /* MHSDetailViewController.m */; };
+		C49D8C52192A6AC400207F1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49D8C51192A6AC400207F1C /* Images.xcassets */; };
+		C49D8C59192A6AC400207F1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8C58192A6AC400207F1C /* XCTest.framework */; };
+		C49D8C5A192A6AC400207F1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8C31192A6AC400207F1C /* Foundation.framework */; };
+		C49D8C5B192A6AC400207F1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8C35192A6AC400207F1C /* UIKit.framework */; };
+		C49D8C5C192A6AC400207F1C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D8C37192A6AC400207F1C /* CoreData.framework */; };
+		C49D8C64192A6AC400207F1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C49D8C62192A6AC400207F1C /* InfoPlist.strings */; };
+		C49D8C66192A6AC400207F1C /* AdvanceCSVImportExportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8C65192A6AC400207F1C /* AdvanceCSVImportExportTests.m */; };
+		C49D8C71192A6AF800207F1C /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8C70192A6AF800207F1C /* CHCSVParser.m */; };
+		C49D8C74192A6B1800207F1C /* CSVDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D8C73192A6B1800207F1C /* CSVDelegate.m */; };
+		C49D8C7C192AFCEC00207F1C /* KababishServerMenu1.csv in Resources */ = {isa = PBXBuildFile; fileRef = C49D8C7B192AFCEC00207F1C /* KababishServerMenu1.csv */; };
+		C49D8C7E192B006300207F1C /* KababishServerMenu.csv in Resources */ = {isa = PBXBuildFile; fileRef = C49D8C7D192B006300207F1C /* KababishServerMenu.csv */; };
+		C49D8C80192C064300207F1C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C49D8C7F192C064300207F1C /* Localizable.strings */; };
+		C49D8C89192C3A5900207F1C /* TheExportKababishMenu.csv in Resources */ = {isa = PBXBuildFile; fileRef = C49D8C88192C3A5900207F1C /* TheExportKababishMenu.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C49D8C5D192A6AC400207F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49D8C26192A6AC400207F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49D8C2D192A6AC400207F1C;
+			remoteInfo = AdvanceCSVImportExport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C41FB0EE192EBC9400284553 /* KababishMenu.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KababishMenu.csv; sourceTree = "<group>"; };
+		C49D8C2E192A6AC400207F1C /* AdvanceCSVImportExport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvanceCSVImportExport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D8C31192A6AC400207F1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C49D8C33192A6AC400207F1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C49D8C35192A6AC400207F1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C49D8C37192A6AC400207F1C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C49D8C3B192A6AC400207F1C /* AdvanceCSVImportExport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdvanceCSVImportExport-Info.plist"; sourceTree = "<group>"; };
+		C49D8C3D192A6AC400207F1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C49D8C3F192A6AC400207F1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C49D8C41192A6AC400207F1C /* AdvanceCSVImportExport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdvanceCSVImportExport-Prefix.pch"; sourceTree = "<group>"; };
+		C49D8C42192A6AC400207F1C /* MHSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHSAppDelegate.h; sourceTree = "<group>"; };
+		C49D8C43192A6AC400207F1C /* MHSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHSAppDelegate.m; sourceTree = "<group>"; };
+		C49D8C46192A6AC400207F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49D8C49192A6AC400207F1C /* AdvanceCSVImportExport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdvanceCSVImportExport.xcdatamodel; sourceTree = "<group>"; };
+		C49D8C4B192A6AC400207F1C /* MHSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHSMasterViewController.h; sourceTree = "<group>"; };
+		C49D8C4C192A6AC400207F1C /* MHSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHSMasterViewController.m; sourceTree = "<group>"; };
+		C49D8C4E192A6AC400207F1C /* MHSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHSDetailViewController.h; sourceTree = "<group>"; };
+		C49D8C4F192A6AC400207F1C /* MHSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHSDetailViewController.m; sourceTree = "<group>"; };
+		C49D8C51192A6AC400207F1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C49D8C57192A6AC400207F1C /* AdvanceCSVImportExportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvanceCSVImportExportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49D8C58192A6AC400207F1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C49D8C61192A6AC400207F1C /* AdvanceCSVImportExportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdvanceCSVImportExportTests-Info.plist"; sourceTree = "<group>"; };
+		C49D8C63192A6AC400207F1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C49D8C65192A6AC400207F1C /* AdvanceCSVImportExportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvanceCSVImportExportTests.m; sourceTree = "<group>"; };
+		C49D8C6F192A6AF800207F1C /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		C49D8C70192A6AF800207F1C /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		C49D8C72192A6B1800207F1C /* CSVDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVDelegate.h; sourceTree = "<group>"; };
+		C49D8C73192A6B1800207F1C /* CSVDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVDelegate.m; sourceTree = "<group>"; };
+		C49D8C7B192AFCEC00207F1C /* KababishServerMenu1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KababishServerMenu1.csv; sourceTree = "<group>"; };
+		C49D8C7D192B006300207F1C /* KababishServerMenu.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KababishServerMenu.csv; sourceTree = "<group>"; };
+		C49D8C7F192C064300207F1C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C49D8C88192C3A5900207F1C /* TheExportKababishMenu.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TheExportKababishMenu.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49D8C2B192A6AC400207F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8C34192A6AC400207F1C /* CoreGraphics.framework in Frameworks */,
+				C49D8C38192A6AC400207F1C /* CoreData.framework in Frameworks */,
+				C49D8C36192A6AC400207F1C /* UIKit.framework in Frameworks */,
+				C49D8C32192A6AC400207F1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D8C54192A6AC400207F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8C59192A6AC400207F1C /* XCTest.framework in Frameworks */,
+				C49D8C5C192A6AC400207F1C /* CoreData.framework in Frameworks */,
+				C49D8C5B192A6AC400207F1C /* UIKit.framework in Frameworks */,
+				C49D8C5A192A6AC400207F1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C49D8C25192A6AC400207F1C = {
+			isa = PBXGroup;
+			children = (
+				C49D8C39192A6AC400207F1C /* AdvanceCSVImportExport */,
+				C49D8C5F192A6AC400207F1C /* AdvanceCSVImportExportTests */,
+				C49D8C30192A6AC400207F1C /* Frameworks */,
+				C49D8C2F192A6AC400207F1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C49D8C2F192A6AC400207F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8C2E192A6AC400207F1C /* AdvanceCSVImportExport.app */,
+				C49D8C57192A6AC400207F1C /* AdvanceCSVImportExportTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49D8C30192A6AC400207F1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8C31192A6AC400207F1C /* Foundation.framework */,
+				C49D8C33192A6AC400207F1C /* CoreGraphics.framework */,
+				C49D8C35192A6AC400207F1C /* UIKit.framework */,
+				C49D8C37192A6AC400207F1C /* CoreData.framework */,
+				C49D8C58192A6AC400207F1C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C49D8C39192A6AC400207F1C /* AdvanceCSVImportExport */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8C88192C3A5900207F1C /* TheExportKababishMenu.csv */,
+				C41FB0EE192EBC9400284553 /* KababishMenu.csv */,
+				C49D8C7D192B006300207F1C /* KababishServerMenu.csv */,
+				C49D8C7B192AFCEC00207F1C /* KababishServerMenu1.csv */,
+				C49D8C6F192A6AF800207F1C /* CHCSVParser.h */,
+				C49D8C70192A6AF800207F1C /* CHCSVParser.m */,
+				C49D8C72192A6B1800207F1C /* CSVDelegate.h */,
+				C49D8C73192A6B1800207F1C /* CSVDelegate.m */,
+				C49D8C42192A6AC400207F1C /* MHSAppDelegate.h */,
+				C49D8C43192A6AC400207F1C /* MHSAppDelegate.m */,
+				C49D8C45192A6AC400207F1C /* Main.storyboard */,
+				C49D8C4B192A6AC400207F1C /* MHSMasterViewController.h */,
+				C49D8C4C192A6AC400207F1C /* MHSMasterViewController.m */,
+				C49D8C4E192A6AC400207F1C /* MHSDetailViewController.h */,
+				C49D8C4F192A6AC400207F1C /* MHSDetailViewController.m */,
+				C49D8C51192A6AC400207F1C /* Images.xcassets */,
+				C49D8C48192A6AC400207F1C /* AdvanceCSVImportExport.xcdatamodeld */,
+				C49D8C3A192A6AC400207F1C /* Supporting Files */,
+			);
+			path = AdvanceCSVImportExport;
+			sourceTree = "<group>";
+		};
+		C49D8C3A192A6AC400207F1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8C7F192C064300207F1C /* Localizable.strings */,
+				C49D8C3B192A6AC400207F1C /* AdvanceCSVImportExport-Info.plist */,
+				C49D8C3C192A6AC400207F1C /* InfoPlist.strings */,
+				C49D8C3F192A6AC400207F1C /* main.m */,
+				C49D8C41192A6AC400207F1C /* AdvanceCSVImportExport-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C49D8C5F192A6AC400207F1C /* AdvanceCSVImportExportTests */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8C65192A6AC400207F1C /* AdvanceCSVImportExportTests.m */,
+				C49D8C60192A6AC400207F1C /* Supporting Files */,
+			);
+			path = AdvanceCSVImportExportTests;
+			sourceTree = "<group>";
+		};
+		C49D8C60192A6AC400207F1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49D8C61192A6AC400207F1C /* AdvanceCSVImportExportTests-Info.plist */,
+				C49D8C62192A6AC400207F1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49D8C2D192A6AC400207F1C /* AdvanceCSVImportExport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D8C69192A6AC400207F1C /* Build configuration list for PBXNativeTarget "AdvanceCSVImportExport" */;
+			buildPhases = (
+				C49D8C2A192A6AC400207F1C /* Sources */,
+				C49D8C2B192A6AC400207F1C /* Frameworks */,
+				C49D8C2C192A6AC400207F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvanceCSVImportExport;
+			productName = AdvanceCSVImportExport;
+			productReference = C49D8C2E192A6AC400207F1C /* AdvanceCSVImportExport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C49D8C56192A6AC400207F1C /* AdvanceCSVImportExportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49D8C6C192A6AC400207F1C /* Build configuration list for PBXNativeTarget "AdvanceCSVImportExportTests" */;
+			buildPhases = (
+				C49D8C53192A6AC400207F1C /* Sources */,
+				C49D8C54192A6AC400207F1C /* Frameworks */,
+				C49D8C55192A6AC400207F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49D8C5E192A6AC400207F1C /* PBXTargetDependency */,
+			);
+			name = AdvanceCSVImportExportTests;
+			productName = AdvanceCSVImportExportTests;
+			productReference = C49D8C57192A6AC400207F1C /* AdvanceCSVImportExportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49D8C26192A6AC400207F1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MHS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Maher Suboh";
+				TargetAttributes = {
+					C49D8C56192A6AC400207F1C = {
+						TestTargetID = C49D8C2D192A6AC400207F1C;
+					};
+				};
+			};
+			buildConfigurationList = C49D8C29192A6AC400207F1C /* Build configuration list for PBXProject "AdvanceCSVImportExport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C49D8C25192A6AC400207F1C;
+			productRefGroup = C49D8C2F192A6AC400207F1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49D8C2D192A6AC400207F1C /* AdvanceCSVImportExport */,
+				C49D8C56192A6AC400207F1C /* AdvanceCSVImportExportTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49D8C2C192A6AC400207F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8C89192C3A5900207F1C /* TheExportKababishMenu.csv in Resources */,
+				C49D8C52192A6AC400207F1C /* Images.xcassets in Resources */,
+				C49D8C7C192AFCEC00207F1C /* KababishServerMenu1.csv in Resources */,
+				C49D8C80192C064300207F1C /* Localizable.strings in Resources */,
+				C41FB0EF192EBC9400284553 /* KababishMenu.csv in Resources */,
+				C49D8C3E192A6AC400207F1C /* InfoPlist.strings in Resources */,
+				C49D8C47192A6AC400207F1C /* Main.storyboard in Resources */,
+				C49D8C7E192B006300207F1C /* KababishServerMenu.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D8C55192A6AC400207F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8C64192A6AC400207F1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49D8C2A192A6AC400207F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8C40192A6AC400207F1C /* main.m in Sources */,
+				C49D8C50192A6AC400207F1C /* MHSDetailViewController.m in Sources */,
+				C49D8C71192A6AF800207F1C /* CHCSVParser.m in Sources */,
+				C49D8C4A192A6AC400207F1C /* AdvanceCSVImportExport.xcdatamodeld in Sources */,
+				C49D8C44192A6AC400207F1C /* MHSAppDelegate.m in Sources */,
+				C49D8C74192A6B1800207F1C /* CSVDelegate.m in Sources */,
+				C49D8C4D192A6AC400207F1C /* MHSMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49D8C53192A6AC400207F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49D8C66192A6AC400207F1C /* AdvanceCSVImportExportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49D8C5E192A6AC400207F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49D8C2D192A6AC400207F1C /* AdvanceCSVImportExport */;
+			targetProxy = C49D8C5D192A6AC400207F1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C49D8C3C192A6AC400207F1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D8C3D192A6AC400207F1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C49D8C45192A6AC400207F1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D8C46192A6AC400207F1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C49D8C62192A6AC400207F1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49D8C63192A6AC400207F1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49D8C67192A6AC400207F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C49D8C68192A6AC400207F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C49D8C6A192A6AC400207F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdvanceCSVImportExport/AdvanceCSVImportExport-Prefix.pch";
+				INFOPLIST_FILE = "AdvanceCSVImportExport/AdvanceCSVImportExport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C49D8C6B192A6AC400207F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdvanceCSVImportExport/AdvanceCSVImportExport-Prefix.pch";
+				INFOPLIST_FILE = "AdvanceCSVImportExport/AdvanceCSVImportExport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C49D8C6D192A6AC400207F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AdvanceCSVImportExport.app/AdvanceCSVImportExport";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdvanceCSVImportExport/AdvanceCSVImportExport-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AdvanceCSVImportExportTests/AdvanceCSVImportExportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C49D8C6E192A6AC400207F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AdvanceCSVImportExport.app/AdvanceCSVImportExport";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AdvanceCSVImportExport/AdvanceCSVImportExport-Prefix.pch";
+				INFOPLIST_FILE = "AdvanceCSVImportExportTests/AdvanceCSVImportExportTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49D8C29192A6AC400207F1C /* Build configuration list for PBXProject "AdvanceCSVImportExport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D8C67192A6AC400207F1C /* Debug */,
+				C49D8C68192A6AC400207F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49D8C69192A6AC400207F1C /* Build configuration list for PBXNativeTarget "AdvanceCSVImportExport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D8C6A192A6AC400207F1C /* Debug */,
+				C49D8C6B192A6AC400207F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49D8C6C192A6AC400207F1C /* Build configuration list for PBXNativeTarget "AdvanceCSVImportExportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49D8C6D192A6AC400207F1C /* Debug */,
+				C49D8C6E192A6AC400207F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C49D8C48192A6AC400207F1C /* AdvanceCSVImportExport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C49D8C49192A6AC400207F1C /* AdvanceCSVImportExport.xcdatamodel */,
+			);
+			currentVersion = C49D8C49192A6AC400207F1C /* AdvanceCSVImportExport.xcdatamodel */;
+			path = AdvanceCSVImportExport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C49D8C26192A6AC400207F1C /* Project object */;
+}

@@ -1,0 +1,38 @@
+menuItemBriefDescription,menuItemCategory,menuItemCategoryOrderIncludes,menuItemDescription,menuItemName,menuItemNumber,menuItemPrice,menuItemSideOrder,timeStamp
+(KOOBIDEH),Kabobs,"ALL KABOBS COME WITH OUR HOUSE SALAD, GRILLED TOMATO, ONIONS, AND BASMATI SAFFRON RICE.",Two juicy skewers of beautifully seasoned ground sirloin charbroiled to perfection.,HOUSE KABOB,A01,11.95,NA,05/20/2014
+(BONELESS JOOJEH),Kabobs,"ALL KABOBS COME WITH OUR HOUSE SALAD, GRILLED TOMATO, ONIONS, AND BASMATI SAFFRON RICE.",Charbroiled pieces of tender chicken breast marinated overnight in a lemon juice and saffron marinade.,CHICKEN KABOB,A02,11.95,NA,05/20/2014
+(NA),Kabobs,"ALL KABOBS COME WITH OUR HOUSE SALAD, GRILLED TOMATO, ONIONS, AND BASMATI SAFFRON RICE.",One skewer of our tender Chicken Kabob and a skewer of our juicy House Kabob.,COMBO KABOB,A03,13.95,NA,05/20/2014
+(NA),Kabobs,"ALL KABOBS COME WITH OUR HOUSE SALAD, GRILLED TOMATO, ONIONS, AND BASMATI SAFFRON RICE.",Strips of chicken breast skewered and marinated twice over an open flame ,CHICKEN BARG KABOB,A04,13.95,NA,05/20/2014
+(NA),Kabobs,"ALL KABOBS COME WITH OUR HOUSE SALAD, GRILLED TOMATO, ONIONS, AND BASMATI SAFFRON RICE.",Strips of thin steak cut tenderloin (most tender cut) seasoned and marinated to perfection over an open flame. ,BARG KABOB,A05,16.95,NA,05/20/2014
+(NA),Kabobs,"ALL KABOBS COME WITH OUR HOUSE SALAD, GRILLED TOMATO, ONIONS, AND BASMATI SAFFRON RICE.",One skewer of Chicken Barg and one skewer of our juicy House Kabob.,VAZIRI KABOB,A06,16.95,NA,05/20/2014
+(NA),Kabobs,"ALL KABOBS COME WITH OUR HOUSE SALAD, GRILLED TOMATO, ONIONS, AND BASMATI SAFFRON RICE.",The kings meal! One skewer of our tender Barg Kabob and one skewer of our juicy House Kabob.,SOLTANI KABOB,A07,18.95,NA,05/20/2014
+(NA),Kabobs,"ALL KABOBS COME WITH OUR HOUSE SALAD, GRILLED TOMATO, ONIONS, AND BASMATI SAFFRON RICE.",Over one pound of tender pieces of lamb marinated to perfection with grilled bell peppers and onions served over our homemade bread.,LAMB KABOB,A08,22.95,NA,05/20/2014
+(NA),Kabobs,"ALL KABOBS COME WITH OUR HOUSE SALAD, GRILLED TOMATO, ONIONS, AND BASMATI SAFFRON RICE.",Freshly caught Atlantic salmon beautifully seasoned and marinated on an open flame. Be sure to ask about substituting your white rice with one of our mixed rices of the day.,SALMON KABOB,A09,14.95,NA,05/20/2014
+(V),Kabobs,"ALL KABOBS COME WITH OUR HOUSE SALAD, GRILLED TOMATO, ONIONS, AND BASMATI SAFFRON RICE.","Bell peppers, zucchini, mushrooms, squash and pineapples skewered and lightly marinated on an open flame.",VEGETABLE KABOB,A10,11.95,NA,05/20/2014
+(NA),Kabobs,NA,NA,ADD OUR FAMOUS POMEGRANATE SAUCE,A11,2,NA,05/20/2014
+(KOOBIDEH),Lunch Menu,Served Only Till 3:30 PM On Weekdays,A skewer of our juicy ground Sirloin Kabob served with a grilled tomato and basmati saffron rice.,HOUSE KABOB,B01,7.5,NA,05/20/2014
+(BONELESS JOOJEH),Lunch Menu,Served Only Till 3:30 PM On Weekdays,"Four pieces of tender chicken breast marinated overnight in a lemon juice and saffron marinade, served with a grilled tomato and basmati saffron rice.",CHICKEN KABOB,B02,7.75,NA,05/20/2014
+(NA),Lunch Menu,Served Only Till 3:30 PM On Weekdays,A skewer of our juicy ground sirloin Kabob with a grilled tomato and herbs served on our homemade bread.,BREAD AND HOUSE KABOB,B03,7.5,NA,05/20/2014
+(NA),Lunch Menu,Served Only Till 3:30 PM On Weekdays,Four pieces of tender chicken breast marinated overnight in a lemon juice and saffron marinade with a grilled tomato and herbs served on our homemade bread.,BREAD AND CHICKEN KABOB,B04,7.75,NA,05/20/2014
+(KOOBIDEH),Lunch Menu,Served Only Till 3:30 PM On Weekdays,"Seasoned ground sirloin skewered & charbroiled wrapped in lavash bread with a mixture of onions, freshly chopped parsley, pickles and our house sauce. Chips served on the side.",HOUSE KABOB WRAP,B05,6.95,NA,05/20/2014
+(BONELESS JOOJEH),Lunch Menu,Served Only Till 3:30 PM On Weekdays,"Chicken breast marinated, skewered & charbroilled and wrapped in hot lavash bread with a mixture of onions, parsley, pickles and our house sauce. Chips served on the side.",CHICKEN WRAP WITH A TWIST,B06,6.95,NA,05/20/2014
+(NA),Lunch Menu,Served Only Till 3:30 PM On Weekdays,"Our mouth-watering spicy grilled steak or chicken with grilled bell peppers and onions over a bed of lettuce, pickles, onions and our house sauce. Topped with a mixture of provolone and swiss cheeses wrapped in hot lavash bread. Chips served on the side.",NOOSH SPECIALTY WRAP,B07,6.95,NA,05/20/2014
+(NA),Lunch Menu,NA,NA,ADD OUR HOUSE SALAD,B08,2.25,NA,05/20/2014
+(V),Appetizers,All appetizers are served with our freshly-made Hot Bread,"Yogurt mixed with shredded cucumbers, herbs and seasoning.",Mast-o-Khiyar,C01,4.95,NA,05/20/2014
+(V),Appetizers,All appetizers are served with our freshly made Hot Bread,"A mixture of Pureed chickpeas, garlic, tahini, fresh lemon juice and topped with olive oil.",Hummus,C02,4.95,NA,05/20/2014
+(V),Appetizers,All appetizers are served with our freshly-made Hot Bread,"A Cold appetizer with a beautiful mixture of smoked eggplant, sauteed garlic, fresh lemon juice, tahini and topped with olive oil.",Baba Ghanoush,C03,5.95,NA,05/20/2014
+(V),Appetizers,All appetizers are served with our freshly-made Hot Bread,"Our traditional signature appetizer consisting of a blend of smoked eggplants, smoked tomatoes, sauteed garlic and seasoned eggs.",Mirza Ghasemi,C04,5.95,NA,05/20/2014
+(V),Appetizers,All appetizers are served with our freshly-made Hot Bread,Beautifully seasoned sauteed eggplants with Persian garnishes such as fried onions and fried mint.,Kashke-E-Bademjan,C05,5.95,NA,05/20/2014
+(V),Appetizers,All appetizers are served with our freshly-made Hot Bread,"The chef's special eggplant appetizer of fried pieces of eggplant cooked with a seasoned tomato sauce, garlic and chick peas (spicy).",Eggplant Delight,C06,5.95,NA,05/20/2014
+(V),Soup & Salads,All Soup & Salads are served with our freshly-made Hot Bread,"Our famous traditional Persian soup consisting of fresh herbs, barley, lentil and kidney beans mixed with whey and garnished with fired onion, mint and walnuts.",Ash-E-Joe,D01,5.95,NA,05/20/2014
+(V),Soup & Salads,All Soup & Salads are served with our freshly-made Hot Bread,"A hearty mix of fresh romaine lettuce, grated carrots and corn, topped with our signature marinated red cabbage and our popular house dressing on the side.",HOUSE SALAD,D02,5.95,NA,05/20/2014
+(NA),Soup & Salads,All Soup & Salads are served with our freshly-made Hot Bread,"Skewered chicken breasts marinated overnight in a bed of fresh lemon juice, saffron, seasoning and olive oil cooked over an open flame and served with our house salad.",CHICKEN KABOB SALAD,D03,8.95,NA,05/20/2014
+(NA),Soup & Salads,All Soup & Salads are served with our freshly-made Hot Bread,"Freshly caught salmon, cooked and marinated over an open flame and served with our house salad.",SALMON KABOB SALAD,D04,10.95,NA,05/20/2014
+(V),Soup & Salads,All Soup & Salads are served with our freshly-made Hot Bread,NA,SOUP AND SALAD,D05,6.95,NA,05/20/2014
+(NA),Beverages,NA,"Fanta, Coke, Coke Zero, Diet Coke, Lemonade, Sprite",FOUNTAIN SODA,E01,2.25,NA,05/20/2014
+(NA),Beverages,NA,Sweet or Unsweetened Iced Tea,ICED TEA,E02,2.15,NA,05/20/2014
+(NA),Beverages,NA,Fountain Soda,KIDS DRINKS,E03,0.99,NA,05/20/2014
+(DOOGH),Beverages,NA,NA,CARBONATED YOGURT DRINK,E04,2.95,NA,05/20/2014
+(NA),Beverages,NA,NA,HOMEMADE DOOGH,E05,2.95,NA,05/20/2014
+(NA),Beverages,NA,NA,PREMIUM COFEE,E06,2.25,NA,05/20/2014
+(NA),Beverages,NA,NA,PERSIAN HOT TEA,E07,1.75,NA,05/20/2014
